@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ShopVerse - All Shopping in One</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <nav class="navbar">
+    <h2>🛍️ ShopVerse</h2>
+    <ul>
+      <li>Home</li>
+      <li>Categories</li>
+      <li>Deals</li>
+      <li>About</li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>One Search. All Shopping Sites.</h1>
+    <p>Compare and shop across Amazon, Flipkart, Myntra, Meesho & AJIO</p>
+
+    <div class="search-box">
+      <input type="text" id="query" placeholder="Search for products...">
+      <button onclick="searchAll()">Search</button>
+    </div>
+  </section>
+
+  <section class="cards">
+    <div class="card" onclick="openSite('amazon')">Amazon</div>
+    <div class="card" onclick="openSite('flipkart')">Flipkart</div>
+    <div class="card" onclick="openSite('myntra')">Myntra</div>
+    <div class="card" onclick="openSite('meesho')">Meesho</div>
+    <div class="card" onclick="openSite('ajio')">AJIO</div>
+  </section>
+
+  <footer>
+    <p>© 2026 ShopVerse | Mini Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
